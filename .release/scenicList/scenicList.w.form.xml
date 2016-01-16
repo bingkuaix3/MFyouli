@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cMVjqQn" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __justepbasexid__="__baseID__" __cid="cMVjqQn" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">#scenicList.cMVjqQn{background-color: rgb(240, 240, 240); padding-left: 2%}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cMVjqQn" class="cMVjqQn"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pfa4fd41692cd4f03b848c6505e6297d7-iosstatusbar cMVjqQn" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cMVjqQn"> 
+    <div class="x-panel-top cMVjqQn" xid="scenicListTop" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cMVjqQn"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cMVjqQn" style="background-color:#3ba030;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cMVjqQn"> 
+        <div class="x-titlebar-left cMVjqQn" __cid="cMVjqQn"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cMVjqQn" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cMVjqQn"> 
+            <i class="icon-chevron-left cMVjqQn" __cid="cMVjqQn"/>  
+            <span __cid="cMVjqQn" class="cMVjqQn"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cMVjqQn" __cid="cMVjqQn"> 
+          <img style="width:60px;" src="$model/UI2/MFyouli/images/icon.png" __cid="cMVjqQn" class="cMVjqQn"/> 
+        </div>  
+        <div class="x-titlebar-right  cMVjqQn" __cid="cMVjqQn">
+          <div class="empty cMVjqQn" __cid="cMVjqQn"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cMVjqQn" id="scenicList" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cMVjqQn"/>  
+    <style __cid="cMVjqQn" class="cMVjqQn">.x-panel.pfa4fd41692cd4f03b848c6505e6297d7-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pfa4fd41692cd4f03b848c6505e6297d7-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pfa4fd41692cd4f03b848c6505e6297d7-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pfa4fd41692cd4f03b848c6505e6297d7-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pfa4fd41692cd4f03b848c6505e6297d7-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pfa4fd41692cd4f03b848c6505e6297d7-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pfa4fd41692cd4f03b848c6505e6297d7-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/MFyouli/yuyinList.w&quot;}" __cid="cMVjqQn" class="cMVjqQn">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cMVjqQn" __cid="cMVjqQn"></xhtml:div>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cMVjqQn" style="display:none;" __cid="cMVjqQn">
+      <xhtml:div class="x-dialog-title cMVjqQn" __cid="cMVjqQn">
+        <xhtml:button class="close cMVjqQn" __cid="cMVjqQn">
+          <xhtml:span __cid="cMVjqQn" class="cMVjqQn">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cMVjqQn" __cid="cMVjqQn"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cMVjqQn" __cid="cMVjqQn"/>
+    </xhtml:div>
+  </span>
+</div>

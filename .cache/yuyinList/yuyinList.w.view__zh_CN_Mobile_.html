@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cZnABn2" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __justepbasexid__="__baseID__" __cid="cZnABn2" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/button,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cZnABn2" class="cZnABn2"/>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="windowReceiver1" style="left:194px;top:10px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" data-events="onReceive:windowReceiver1Receive" __cid="cZnABn2" class="cZnABn2"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p0d51c600f3c843859d105a736234241b-iosstatusbar cZnABn2" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cZnABn2"> 
+    <div class="x-panel-top cZnABn2" xid="jingdianListYuyinTop" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cZnABn2"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cZnABn2" style="background-color:#3ba030;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cZnABn2"> 
+        <div class="x-titlebar-left cZnABn2" __cid="cZnABn2"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cZnABn2" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'windowReceiver1.windowCancel'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cZnABn2"> 
+            <i class="icon-chevron-left cZnABn2" __cid="cZnABn2"/>  
+            <span __cid="cZnABn2" class="cZnABn2"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cZnABn2" id="jingdianListYuyinTitle" __cid="cZnABn2"/>  
+        <div class="x-titlebar-right  cZnABn2" __cid="cZnABn2"> 
+          <div class="empty cZnABn2" __cid="cZnABn2"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cZnABn2" id="jingdianListYuyinContent" style="background-color:black;display:none" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cZnABn2"> 
+      <audio id="jdYuyins" style="display:none;" controls="controls" __cid="cZnABn2" class="cZnABn2"/>  
+      <img style="width:96%; margin-left:2%;margin-top:5px;" id="jingdianImages" __cid="cZnABn2" class="cZnABn2"/>  
+      <div style="float:left;width:100%;height:40px;background-color:black;" __cid="cZnABn2" class="cZnABn2"> 
+        <table style="width:100%;height:100%;" __cid="cZnABn2" class="cZnABn2"> 
+          <tr __cid="cZnABn2" class="cZnABn2"> 
+            <td align="right" style="width:40px;" __cid="cZnABn2" class="cZnABn2"> 
+              <img id="jdYuyinImage" onclick="yuyinPlayer()" style="width:20px;" src="@justepContextPath@/v_0425089db5f64855887d8c99759e0d06l_zh_CNs_d_/youli/images/yuyin1.png" __cid="cZnABn2" class="cZnABn2"/> 
+            </td>  
+            <td align="center" __cid="cZnABn2" class="cZnABn2"> 
+              <div style="width:90%;height:10px;border:1px solid white;border-radius:5px;background-color:white;" __cid="cZnABn2" class="cZnABn2"> 
+                <div id="progress" style="float:left;margin:0px;border-radius:5px;background-color:#3ba030;width:0px;height:100%;" __cid="cZnABn2" class="cZnABn2"/> 
+              </div> 
+            </td> 
+          </tr> 
+        </table> 
+      </div>  
+      <div id="jingdianIntroduce" style="float:left;width:100%;font-size:13px; color:white;padding:10px;" __cid="cZnABn2" class="cZnABn2"/> 
+    </div>  
+    <style __cid="cZnABn2" class="cZnABn2">.x-panel.p0d51c600f3c843859d105a736234241b-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p0d51c600f3c843859d105a736234241b-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p0d51c600f3c843859d105a736234241b-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p0d51c600f3c843859d105a736234241b-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p0d51c600f3c843859d105a736234241b-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p0d51c600f3c843859d105a736234241b-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p0d51c600f3c843859d105a736234241b-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

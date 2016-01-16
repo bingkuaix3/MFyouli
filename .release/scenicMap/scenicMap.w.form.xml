@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cYZjIRn" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __justepbasexid__="__baseID__" __cid="cYZjIRn" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.map.cYZjIRn{width: 100%; height: 100%; z-index: 0; background-color: rgb(240, 240, 240); background-image: url($model/UI2/youli/images/mapbg.png); background-repeat: repeat} .map-control.cYZjIRn{position: fixed; bottom: 50px; right: 10px; width: 30px; height: 30px} .map-control.cYZjIRn img.cYZjIRn{width: 30px; height: 30px} .menu.cYZjIRn{position: fixed; bottom: 2px; width: 96%; height: 35px; background-color: rgb(240, 240, 240); border: 1px solid rgb(208, 208, 208); border-radius: 2px; margin: auto 2% auto 2%} .menu-ul.cYZjIRn{float: left; width: 49%; margin-top: 4px; height: 27px; line-height: 27px; text-align: center} .menu-ul.cYZjIRn a.cYZjIRn{color: rgb(51, 51, 51); font-size: 14px; text-decoration: none} .goback.cYZjIRn{position: fixed; top: 10px; left: 10px; width: 26px; height: 26px; border-radius: 13px; background: rgba(200, 200, 200, 0.6) !important; background: rgb(17, 17, 17); filter: alpha(opacity = 80); border: 1px solid rgb(170, 170, 170)} .goback.cYZjIRn img.cYZjIRn{width: 16px; margin: 4px 3px 5px 3px; cursor: pointer} .details.cYZjIRn{position: fixed; right: 10px; top: 10px; width: 26px; height: 26px; border-radius: 13px; background: rgba(200, 200, 200, 0.6) !important; background: rgb(17, 17, 17); filter: alpha(opacity = 80); border: 1px solid rgb(170, 170, 170); text-align: center; line-height: 26px; font-size: 13px; font-family: "黑体"; text-decoration: none; color: rgb(65, 181, 232)} .autoyuyin.cYZjIRn{position: fixed; right: 10px; top: 50px; width: 26px; height: 26px; border-radius: 13px; background: rgba(200, 200, 200, 0.7) !important; background: rgb(17, 17, 17); filter: alpha(opacity = 80); border: 1px solid rgb(170, 170, 170); text-align: center; line-height: 26px; font-size: 13px; font-family: "黑体"} .panelInfo.cYZjIRn{position: fixed; bottom: 0px; width: 100%; height: 0; background-color: transparent; z-index: 999999} .titleInfo.cYZjIRn{position: relative; top: 0px; width: 100%; height: 30px; background-color: rgb(240, 240, 240); margin-top: 10px; line-height: 30px} .titleInfo-name.cYZjIRn{float: left; width: auto; height: 30px; color: rgb(59, 160, 61); line-height: 30px; font-weight: bold; font-family: "黑体"; margin-left: 10px} .titleInfo-close.cYZjIRn{float: right; width: 30px; height: 30px; margin-top: 0px; margin-right: 5px; cursor: pointer} .contentInfo.cYZjIRn{position: relative; top: 0px; left: 0px; width: 100%; height: 150px; z-index: 2000; background-color: white} .infoleft.cYZjIRn{position: absolute; top: 0px; left: 0px; width: 30px; height: 30px; background: rgba(200, 200, 200, 0.5) !important; background: rgb(17, 17, 17); filter: alpha(opacity = 80); z-index: 6666} .Info.cYZjIRn{position: absolute; top: 0px; left: 0px; width: 200%; height: 100%; z-index: 22; overflow: hidden} .fowordInfo.cYZjIRn{position: absolute; float: left; width: 50%; height: 150px; overflow: auto; font-size: 13px; padding: 3px; z-index: 2001; display: none; float: left} .rightInfo.cYZjIRn{position: absolute; top: 0px; right: 46%; width: 50px; height: 100%; background: rgba(200, 200, 200, 0.5) !important; filter: alpha(opacity = 80); line-height: 90px; border-top-left-radius: 200%; border-bottom-left-radius: 200%} .rightInfo.cYZjIRn img.cYZjIRn{width: 15px; margin-top: 60px; margin-left: 0px} .imgInfo.cYZjIRn{float: left; width: 50%; height: 150px} .buttonInfo.cYZjIRn{position: relative; top: 0px; left: 0px; width: 100%; height: 35px; line-height: 35px; background-color: rgb(59, 160, 61)} .btnInfo.cYZjIRn{float: left; width: 100%; height: 25px; color: white; line-height: 25px; text-align: center; margin-top: 5px; font-size: 13px; cursor: pointer} .BMap_cpyCtrl.cYZjIRn, .anchorBL.cYZjIRn{display: none} #yuyinicon.cYZjIRn{width: 16px; margin-top: -3px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad;onActive:modelActive" __cid="cYZjIRn" class="cYZjIRn"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p99e3d443656e416d99e154a34f65236a-iosstatusbar cYZjIRn" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cYZjIRn"> 
+    <div class="x-panel-top cYZjIRn" xid="jingdianMapTop" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYZjIRn"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cYZjIRn" style="background-color:#3ba030;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cYZjIRn"> 
+        <div class="x-titlebar-left cYZjIRn" __cid="cYZjIRn"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cYZjIRn" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cYZjIRn"> 
+            <i class="icon-chevron-left cYZjIRn" __cid="cYZjIRn"/>  
+            <span __cid="cYZjIRn" class="cYZjIRn"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cYZjIRn" __cid="cYZjIRn"> 
+          <img style="width:60px;" src="$model/UI2/MFyouli/images/icon.png" __cid="cYZjIRn" class="cYZjIRn"/> 
+        </div>  
+        <div class="x-titlebar-right  cYZjIRn" __cid="cYZjIRn">
+          <div class="empty cYZjIRn" __cid="cYZjIRn"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cYZjIRn" xid="jingdianMapContent" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYZjIRn"> 
+      <audio id="audioplayer" style="display:none;" controls="controls" __cid="cYZjIRn" class="cYZjIRn"/>  
+      <div class="map cYZjIRn" id="container" __cid="cYZjIRn"/>  
+      <div class="map-control cYZjIRn" __cid="cYZjIRn"> 
+        <img xid="backCenter" src="$model/UI2/MFyouli/images/dingweiReset.png" bind-click="bakCenterClick" __cid="cYZjIRn" class="cYZjIRn"/> 
+      </div>  
+      <img flag="0" id="navigators" xid="navigators" src="$model/UI2/MFyouli/images/dingweiClose.png" bind-click="navigatorsClick" style="position:fixed;bottom:100px;right:10px;width:30px;height:30px;" __cid="cYZjIRn" class="cYZjIRn"/>  
+      <div class="panelInfo cYZjIRn" __cid="cYZjIRn"> 
+        <div class="titleInfo cYZjIRn" __cid="cYZjIRn"> 
+          <span class="titleInfo-name cYZjIRn" __cid="cYZjIRn"/>  
+          <img class="titleInfo-close cYZjIRn" src="$model/UI2/MFyouli/images/close.png" bind-click="closeWin" __cid="cYZjIRn"/> 
+        </div>  
+        <div class="contentInfo cYZjIRn" __cid="cYZjIRn"> 
+          <div class="Info cYZjIRn" __cid="cYZjIRn"> 
+            <img class="imgInfo cYZjIRn" __cid="cYZjIRn"/>  
+            <div class="fowordInfo cYZjIRn" __cid="cYZjIRn"/>  
+            <div class="rightInfo cYZjIRn" __cid="cYZjIRn"> 
+              <img src="$model/UI2/MFyouli/images/left.png" __cid="cYZjIRn" class="cYZjIRn"/> 
+            </div> 
+          </div> 
+        </div>  
+        <div class="buttonInfo cYZjIRn" bind-click="autio" __cid="cYZjIRn"> 
+          <div class="btnInfo cYZjIRn" __cid="cYZjIRn"> 
+            <img id="yuyinicon" src="$model/UI2/MFyouli/images/yuyin2.png" __cid="cYZjIRn" class="cYZjIRn"/>  
+            <span id="yuyin" __cid="cYZjIRn" class="cYZjIRn">语音解说</span> 
+          </div> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cYZjIRn" class="cYZjIRn">.x-panel.p99e3d443656e416d99e154a34f65236a-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p99e3d443656e416d99e154a34f65236a-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p99e3d443656e416d99e154a34f65236a-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p99e3d443656e416d99e154a34f65236a-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p99e3d443656e416d99e154a34f65236a-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p99e3d443656e416d99e154a34f65236a-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p99e3d443656e416d99e154a34f65236a-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

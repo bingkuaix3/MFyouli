@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cNFZnaq" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __justepbasexid__="__baseID__" __cid="cNFZnaq" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.titlebar.cNFZnaq{height: 48px; text-align: center; background-color: rgb(59, 160, 48); line-height: 50px; font-size: 20px; color: white; font-weight: bold} .x-titlebar.cNFZnaq{background-color: rgb(59, 160, 48)} .item.cNFZnaq{float: left; width: 33%; text-align: center; line-height: 30px; height: 30px} .name.cNFZnaq{margin-left: auto; margin-right: auto; font-size: 13px; padding: 5px; margin-bottom: 0px; line-height: 35px; text-align: center; width: 70px; height: 30px; margin-top: 15px; border: 1px solid rgb(255, 255, 255); border-radius: 5px; color: rgb(153, 153, 153); background-color: white} .active-name.cNFZnaq{margin-left: auto; margin-right: auto; font-size: 13px; padding: 5px; margin-bottom: 0px; line-height: 35px; text-align: center; width: 70px; height: 30px; margin-top: 15px; border: 1px solid rgb(255, 255, 255); border-radius: 5px; color: white; background-color: rgb(59, 160, 48)} a.cNFZnaq{text-decoration: none} .mainimg.cNFZnaq{float: left; width: 100%; margin-top: 2px} .x-contents-content.cNFZnaq{background-color: rgb(240, 240, 240)} .scenicJump.cNFZnaq{color: rgb(59, 160, 48); background-color: white; border-bottom: 1px solid rgb(59, 160, 48); color: rgb(59, 160, 48)} .scenicAutio.cNFZnaq{width: 33px; background-color: white; border-bottom: 1px solid rgb(59, 160, 48)} table.cNFZnaq{width: 100%; height: 40px; text-align: center} .scenicAutioDiv.cNFZnaq{width: 40px; height: 40px; background-color: rgb(59, 160, 48); border-radius: 20px; border: 1px solid white} .scenicAutioImg.cNFZnaq{width: 20px; margin-top: 10px} #scenicIntroduce.cNFZnaq{width: 96%; margin-left: 2%; margin-right: 2%; border: 1px solid rgb(153, 153, 153); background-color: white; border-radius: 5px; padding: 5px; margin-top: 5px; color: black} .infoTable.cNFZnaq{width: 96%; margin-left: 2%; margin-top: 10px; border: 1px solid rgb(59, 160, 48)} .tdTitle.cNFZnaq{width: 20px; background-color: rgb(59, 160, 48); color: white; font-size: 13px} .tdInfo.cNFZnaq{padding: 5px; background-color: white; text-align: left}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cNFZnaq" class="cNFZnaq"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pf97705ea69a842ffa862721bd0b2c731-iosstatusbar cNFZnaq" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cNFZnaq"> 
+    <div class="x-panel-top cNFZnaq" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cNFZnaq"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cNFZnaq" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cNFZnaq"> 
+        <div class="x-titlebar-left cNFZnaq" xid="div1" __cid="cNFZnaq"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cNFZnaq" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cNFZnaq"> 
+            <i class="icon-chevron-left cNFZnaq" xid="i4" __cid="cNFZnaq"/>  
+            <span xid="span4" __cid="cNFZnaq" class="cNFZnaq"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cNFZnaq" xid="div2" id="jingquTitleName" __cid="cNFZnaq"/>  
+        <div class="x-titlebar-right  cNFZnaq" xid="div3" __cid="cNFZnaq">
+          <div class="empty cNFZnaq" __cid="cNFZnaq"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cNFZnaq" id="content1" style="display:none" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cNFZnaq"> 
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p353e2e711bb74715a0fbfda57963e394-iosstatusbar cNFZnaq" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cNFZnaq"> 
+        <div class="x-panel-top cNFZnaq" xid="top2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" data-config="{&quot;height&quot;:33}" __cid="cNFZnaq"> 
+          <ul xid="ul1" __cid="cNFZnaq" class="cNFZnaq"> 
+            <li class="item cNFZnaq" xid="li1" __cid="cNFZnaq"> 
+              <a id="a1" component="$model/UI2/system/components/justep/button/button" class="name cNFZnaq" xid="detailBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;详细信息&quot;,&quot;target&quot;:&quot;detailContent&quot;}" __cid="cNFZnaq"> 
+                <i xid="i1" __cid="cNFZnaq" class="cNFZnaq"/>  
+                <span xid="span1" __cid="cNFZnaq" class="cNFZnaq">详细信息</span> 
+              </a> 
+            </li>  
+            <li class="item cNFZnaq" xid="li2" __cid="cNFZnaq"> 
+              <a id="a2" component="$model/UI2/system/components/justep/button/button" class="name cNFZnaq" xid="productBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;景区特产&quot;,&quot;target&quot;:&quot;productContent&quot;}" __cid="cNFZnaq"> 
+                <i xid="i2" __cid="cNFZnaq" class="cNFZnaq"/>  
+                <span xid="span2" __cid="cNFZnaq" class="cNFZnaq">景区特产</span> 
+              </a> 
+            </li>  
+            <li class="item cNFZnaq" xid="li3" __cid="cNFZnaq"> 
+              <a id="a3" component="$model/UI2/system/components/justep/button/button" class="name cNFZnaq" xid="deliciouBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;景区美食&quot;,&quot;target&quot;:&quot;deliciousContent&quot;}" __cid="cNFZnaq"> 
+                <i xid="i3" __cid="cNFZnaq" class="cNFZnaq"/>  
+                <span xid="span3" __cid="cNFZnaq" class="cNFZnaq">景区美食</span> 
+              </a> 
+            </li> 
+          </ul> 
+        </div>  
+        <div class="x-panel-content cNFZnaq" xid="content5" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cNFZnaq"> 
+          <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cNFZnaq" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0,&quot;swipe&quot;:false}" __cid="cNFZnaq"> 
+            <div class="x-contents-content active cNFZnaq" xid="detailContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cNFZnaq"> 
+              <audio id="scenicAudio" style="display:none;" __cid="cNFZnaq" class="cNFZnaq"/>  
+              <img class="mainimg cNFZnaq" __cid="cNFZnaq"/>  
+              <table __cid="cNFZnaq" class="cNFZnaq"> 
+                <tr __cid="cNFZnaq" class="cNFZnaq"> 
+                  <td class="scenicJump cNFZnaq" __cid="cNFZnaq"> 
+                    <a xid="button1" id="scenicMapJump" bind-click="scenicMapJump" __cid="cNFZnaq" class="cNFZnaq"> 
+                      <i xid="i5" class="icon-android-volume cNFZnaq" __cid="cNFZnaq"/>  
+                      <span xid="span5" __cid="cNFZnaq" class="cNFZnaq">语音地图</span> 
+                    </a> 
+                  </td>  
+                  <td class="scenicAutio cNFZnaq" __cid="cNFZnaq"> 
+                    <div class="scenicAutioDiv cNFZnaq" bind-click="audioPlay" __cid="cNFZnaq"> 
+                      <img id="scenicAutioImg" class="scenicAutioImg cNFZnaq" src="$model/UI2/youli/images/yuyin1.png" __cid="cNFZnaq"/> 
+                    </div> 
+                  </td>  
+                  <td class="scenicJump cNFZnaq" bind-click="scenicListJump" __cid="cNFZnaq"> 
+                    <a xid="button2" __cid="cNFZnaq" class="cNFZnaq"> 
+                      <i class="icon-android-sort cNFZnaq" __cid="cNFZnaq"/>  
+                      <span xid="span6" __cid="cNFZnaq" class="cNFZnaq">语音列表</span> 
+                    </a> 
+                  </td> 
+                </tr> 
+              </table>  
+              <div id="scenicIntroduce" __cid="cNFZnaq" class="cNFZnaq"/>  
+              <table class="infoTable cNFZnaq" __cid="cNFZnaq"> 
+                <tr __cid="cNFZnaq" class="cNFZnaq"> 
+                  <td class="tdTitle cNFZnaq" __cid="cNFZnaq">地址</td>  
+                  <td class="tdInfo cNFZnaq" id="scenicAddress" __cid="cNFZnaq"/> 
+                </tr> 
+              </table>  
+              <table class="infoTable cNFZnaq" __cid="cNFZnaq"> 
+                <tr __cid="cNFZnaq" class="cNFZnaq"> 
+                  <td class="tdTitle cNFZnaq" __cid="cNFZnaq">乘车</td>  
+                  <td class="tdInfo cNFZnaq" id="scenicPath" __cid="cNFZnaq"/> 
+                </tr> 
+              </table> 
+            </div>  
+            <div class="x-contents-content cNFZnaq" xid="productContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cNFZnaq">2</div>  
+            <div class="x-contents-content cNFZnaq" xid="deliciousContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cNFZnaq"> 
+              <div id="deliciousDiv" __cid="cNFZnaq" class="cNFZnaq"/> 
+            </div> 
+          </div> 
+        </div>  
+        <style __cid="cNFZnaq" class="cNFZnaq">.x-panel.p353e2e711bb74715a0fbfda57963e394-iosstatusbar &gt;.x-panel-top {height: 33px;}.x-panel.p353e2e711bb74715a0fbfda57963e394-iosstatusbar &gt;.x-panel-content { top: 33px;bottom: nullpx;}.x-panel.p353e2e711bb74715a0fbfda57963e394-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p353e2e711bb74715a0fbfda57963e394-iosstatusbar &gt;.x-panel-top {height: 53px;}.iosstatusbar .x-panel.p353e2e711bb74715a0fbfda57963e394-iosstatusbar &gt;.x-panel-content { top: 53px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p353e2e711bb74715a0fbfda57963e394-iosstatusbar &gt;.x-panel-top {height: 33px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p353e2e711bb74715a0fbfda57963e394-iosstatusbar &gt;.x-panel-content {top: 33px;}</style>
+      </div> 
+    </div>  
+    <style __cid="cNFZnaq" class="cNFZnaq">.x-panel.pf97705ea69a842ffa862721bd0b2c731-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pf97705ea69a842ffa862721bd0b2c731-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pf97705ea69a842ffa862721bd0b2c731-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pf97705ea69a842ffa862721bd0b2c731-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pf97705ea69a842ffa862721bd0b2c731-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pf97705ea69a842ffa862721bd0b2c731-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pf97705ea69a842ffa862721bd0b2c731-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/MFyouli/scenicDetail.w&quot;}" __cid="cNFZnaq" class="cNFZnaq">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cNFZnaq" __cid="cNFZnaq"></xhtml:div>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cNFZnaq" style="display:none;" __cid="cNFZnaq">
+      <xhtml:div class="x-dialog-title cNFZnaq" __cid="cNFZnaq">
+        <xhtml:button class="close cNFZnaq" __cid="cNFZnaq">
+          <xhtml:span __cid="cNFZnaq" class="cNFZnaq">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cNFZnaq" __cid="cNFZnaq"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cNFZnaq" __cid="cNFZnaq"/>
+    </xhtml:div>
+  </span> 
+</div>

@@ -1,0 +1,22 @@
+window.__justep.__ResourceEngine.loadCss([{url: '/v_bac049be1a0b4a758fb4faef8edd48c4l_zh_CNs_d_/system/components/comp.min.css', include: '$model/system/components/justep/row/css/row,$model/system/components/justep/attachment/css/attachment,$model/system/components/justep/barcode/css/barcodeImage,$model/system/components/bootstrap/form/css/form,$model/system/components/justep/panel/css/panel,$model/system/components/bootstrap/accordion/css/accordion,$model/system/components/justep/common/css/scrollable,$model/system/components/bootstrap/pager/css/pager,$model/system/components/justep/scrollView/css/scrollView,$model/system/components/justep/input/css/datePickerPC,$model/system/components/bootstrap/navs/css/navs,$model/system/components/justep/contents/css/contents,$model/system/components/justep/popMenu/css/popMenu,$model/system/components/justep/lib/css/icons,$model/system/components/justep/titleBar/css/titleBar,$model/system/components/justep/dataTables/css/dataTables,$model/system/components/justep/dialog/css/dialog,$model/system/components/justep/messageDialog/css/messageDialog,$model/system/components/bootstrap/navbar/css/navbar,$model/system/components/justep/toolBar/css/toolBar,$model/system/components/justep/popOver/css/popOver,$model/system/components/justep/loadingBar/loadingBar,$model/system/components/justep/input/css/datePicker,$model/system/components/justep/dataTables/css/dataTables,$model/system/components/bootstrap/dialog/css/dialog,$model/system/components/justep/wing/css/wing,$model/system/components/bootstrap/scrollSpy/css/scrollSpy,$model/system/components/justep/menu/css/menu,$model/system/components/justep/numberSelect/css/numberList,$model/system/components/justep/list/css/list,$model/system/components/bootstrap/carousel/css/carousel,$model/system/components/bootstrap/dropdown/css/dropdown,$model/system/components/justep/common/css/forms,$model/system/components/justep/bar/css/bar,$model/system/components/bootstrap/tabs/css/tabs,$model/system/components/bootstrap/pagination/css/pagination'},{url: '/v_b1233ea327aa4934a468ce5b1cd5f8d6l_zh_CNs_d_/system/components/bootstrap.min.css', include: '$model/system/components/bootstrap/lib/css/bootstrap,$model/system/components/bootstrap/lib/css/bootstrap-theme'}]);window.__justep.__ResourceEngine.loadJs(['/v_6fc8f50d45ff470a87f84121d0d5359cl_zh_CNs_d_/system/components/comp.min.js','/v_b5fe04f7b5604860951aeaaec15c8517l_zh_CNs_d_/system/common.min.js','/v_6118c0c22a8548bdb666c5aa69748ed0l_zh_CNs_d_/system/core.min.js']);define(function(require){
+require('$model/UI2/system/components/justep/loadingBar/loadingBar');
+require('$model/UI2/system/components/justep/panel/panel');
+require('$model/UI2/system/components/justep/panel/child');
+require('$model/UI2/system/components/justep/model/model');
+require('$model/UI2/system/components/justep/window/window');
+require('$model/UI2/system/components/justep/data/data');
+require('$model/UI2/system/components/justep/titleBar/titleBar');
+require('$model/UI2/system/components/justep/button/button');
+var __parent1=require('$model/UI2/system/lib/base/modelBase'); 
+var __parent0=require('$model/UI2/MFyouli/scenicMap'); 
+var __result = __parent1._extend(__parent0).extend({
+	constructor:function(contextUrl){
+	this.__sysParam='true';
+	this.__contextUrl=contextUrl;
+	this.__id='__baseID__';
+	this.__cid='cYZjIRn';
+	this._flag_='ae62a369e46168b4d3330d803e0a964b';
+	this.callParent(contextUrl);
+ var __Data__ = require("$UI/system/components/justep/data/data");new __Data__(this,{"autoLoad":true,"confirmDelete":true,"confirmRefresh":true,"defCols":{"fBelongJingqu":{"define":"fBelongJingqu","label":"景点所属景区","name":"fBelongJingqu","relation":"fBelongJingqu","type":"String"},"fCoordinate":{"define":"fCoordinate","label":"景点坐标","name":"fCoordinate","relation":"fCoordinate","type":"String"},"fID":{"define":"fID","label":"景点ID","name":"fID","relation":"fID","type":"String"},"fImage":{"define":"fImage","label":"景点图片","name":"fImage","relation":"fImage","type":"String"},"fIntroduce":{"define":"fIntroduce","label":"景点介绍","name":"fIntroduce","relation":"fIntroduce","type":"String"},"fName":{"define":"fName","label":"景点名称","name":"fName","relation":"fName","type":"String"},"fSound":{"define":"fSound","label":"景点语音","name":"fSound","relation":"fSound","type":"String"}},"directDelete":false,"events":{"onCustomRefresh":"jingdianDataCustomRefresh"},"idColumn":"fID","limit":20,"xid":"jingdianData"});
+}}); 
+return __result;});
